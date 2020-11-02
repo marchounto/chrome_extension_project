@@ -1,0 +1,14 @@
+{
+  "name": "Netflix_intro_skipper_automatic",
+  "version": "1.0",
+  "description": "Build an Extension that skip Netflix series intro",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js","background.js"]
+    }
+  ],
+  "manifest_version": 2
+  
+}
